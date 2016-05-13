@@ -6,8 +6,8 @@
 	WORKLOAD = TPCH
 	commands: make -f makefile
 	2. Runnning Dbgen to generate tables
-	DBGEN is the utility that builds the data needed to load TPC-H. Typically, run it by typing
-        dbgen –v –s 0.1 (0.1 Gb?)
+	DBGEN is the utility that builds the data needed to load TPC-H. Typically, run it by typing(navigate to the dbgen/)
+        ./dbgen –v –s 0.1 (0.1 Gb?)
         first two steps under the murphy machine of Northwesterh in LINUX 
 	3. Then scp the file in remote to local to use mysql ( Have tried to do it in ssh murphy but I don't have sql root permission) 
 	   scp -r qwc695@murphy.wot.eecs.northwestern.edu:~/tpch_2_17_0 /cygdrive/c/Users/Christina
