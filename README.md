@@ -1,4 +1,4 @@
-# TPC-H-MYSQL (My steps)
+## TPC-H-MYSQL
 1. Makefile change the parameter 
 	cc = gcc
 	DATABASE = SQLSERVER
