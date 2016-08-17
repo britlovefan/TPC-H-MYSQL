@@ -1,4 +1,6 @@
 ## TPC-H-MYSQL
+#### The Tutorial for How To Benchmark TPCH on MYSQL 
+
 1. Makefile change the parameter 
 	cc = gcc
 	DATABASE = SQLSERVER
@@ -21,5 +23,5 @@ load data infile 'C:/ProgramData/MySQL/MySQL Server 5.7/Uploads/part.tbl' into t
 
 6. Checked that the data have been corretly loaded: SHOW TABLE STATUS FROM tpch\G
 
-7. Test.. to be implemented
+7. Test Data. to be implemented
 	   
